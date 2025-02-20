@@ -35,11 +35,11 @@
 
 Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiempo de descanso
 
-<p align="center">
+<div align="center">
 
 ![alt text](src/assets/pomodoro.gif)
 
-</p>
+</div>
 
 ## 🚀 Install
 Se usa la herramienta Vite en su ultima versión LTS 5, y con la biblioteca REACT v5 usando, desde el CLI se ejecuta 
