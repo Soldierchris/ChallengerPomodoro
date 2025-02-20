@@ -23,6 +23,10 @@
 
 > El inventor de esta técnica fue Francesco Cirillo, un estudiante italiano que se dio cuenta de lo improductivas que eran no solo sus sesiones de estudio, si no las de todos sus compañeros en general.
 >
+> La técnica Pomodoro, o método Pomodoro, es una herramienta tanto de estudio como de trabajo. De hecho, como forma más precisa de definición, podemos decir que es una metodología de productividad.
+
+>La base de esta técnica consiste en dividir el tiempo en periodos de 25 minutos. Ni un minuto más, ni un minuto menos. ¿Por qué? Porque lo que se busca con esta técnica es alcanzar lo que se llama el “foco de concentración“: ese estado de focus en el cual solo estás centrado en acabar esa tarea que tienes entre manos, sin distracciones de ningún tipo. 
+>
 > Fuente: Instituto Europeo de Postgrado
 > https://iep.edu.es/que-es-el-metodo-pomodoro/
 > 
@@ -41,30 +45,8 @@ Generated `README.md`:
   <img width="700" src="https://user-images.githubusercontent.com/9840435/60266090-9cf9e180-98e7-11e9-9cac-3afeec349bbc.jpg" alt="cli output"/>
 </p>
 
-Example of `package.json` with good meta data:
 
-```json
-// The package.json is not required to run README-MD-GENERATOR
-{
-  "name": "readme-md-generator",
-  "version": "0.1.3",
-  "description": "CLI that generates beautiful README.md files.",
-  "author": "Franck Abgrall",
-  "license": "MIT",
-  "homepage": "https://github.com/kefranabg/readme-md-generator#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kefranabg/readme-md-generator/issues"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  }
-}
-```
+
 ## 🚀 Vite
 
 ## 🚀 React
@@ -82,8 +64,6 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 ![alt text](image.png)
 
 
-
-You can find [ejs README template examples here](https://github.com/kefranabg/readme-md-generator/tree/master/templates).
 
 ## Code Contributors
 
