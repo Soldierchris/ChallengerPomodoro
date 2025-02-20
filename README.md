@@ -1,27 +1,31 @@
-<h1 align="center">Welcome to Pomodoro d 👋</h1>
-<p align="center">
-  <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
+<h1 align="center">Welcome to Pomodoro Watch 👋</h1>
+<div align="center">
 
-  <a href="https://www.npmjs.com/package/readme-md-generator">
-    <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
-  </a>
+![Static Badge](https://img.shields.io/badge/10.9.0-f?label=npm)
+![Static Badge](https://img.shields.io/badge/MIT-grey?label=licence&labelColor=yellow)
+![Static Badge](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![Static Badge](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
-  </a>
-  
-  <a href="https://codecov.io/gh/kefranabg/readme-md-generator">
-    <img src="https://codecov.io/gh/kefranabg/readme-md-generator/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
-    <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
-  </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: FranckAbgrall" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
-  </a>
-</p>
 
-> CLI that generates beautiful README.md files.<br /> `readme-md-generator` will suggest you default answers by reading your `package.json` and `git` configuration.
+
+![Static Badge](https://img.shields.io/badge/Markdown-ffffff?style=flat&logo=markdown&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)
+![Static Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)
+
+</div>
+
+
+> El inventor de esta técnica fue Francesco Cirillo, un estudiante italiano que se dio cuenta de lo improductivas que eran no solo sus sesiones de estudio, si no las de todos sus compañeros en general.
+>
+> Fuente: Instituto Europeo de Postgrado
+> https://iep.edu.es/que-es-el-metodo-pomodoro/
+> 
 
 ## ✨ Demo
 
@@ -61,28 +65,23 @@ Example of `package.json` with good meta data:
   }
 }
 ```
+## 🚀 Vite
 
-## 🚀 Usage
+## 🚀 React
 
-Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since npm `5.2.0`)
+## 🚀 Dependencies
 
-Just run the following command at the root of your project and answer questions:
+Se utiliza las siguintes versiones las cuales son indispensables por compatibilidad :
+- postcss": "^8.4.16"
+- tailwindcss": "^3.1.8"
+- autoprefixer": "^10.4.8"
 
-```sh
-npx readme-md-generator
-```
 
-Or use default values for all questions (`-y`):
+![alt text](image-1.png)
 
-```sh
-npx readme-md-generator -y
-```
+![alt text](image.png)
 
-Use your own `ejs` README template (`-p`):
 
-```sh
-npx readme-md-generator -p path/to/my/own/template.md
-```
 
 You can find [ejs README template examples here](https://github.com/kefranabg/readme-md-generator/tree/master/templates).
 
@@ -91,15 +90,11 @@ You can find [ejs README template examples here](https://github.com/kefranabg/re
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 <a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
 
-## Financial Contributors
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
 
-### Individuals
 
-<a href="https://opencollective.com/readme-md-generator"><img src="https://opencollective.com/readme-md-generator/individuals.svg?width=890"></a>
 
-### Organizations
+## Congratulations
 
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
 <a href="https://opencollective.com/readme-md-generator/organization/0/website"><img src="https://opencollective.com/readme-md-generator/organization/0/avatar.svg"></a>
@@ -121,11 +116,10 @@ Feel free to check [issues page](https://github.com/kefranabg/readme-md-generato
 
 ## Author
 
-👤 **Franck Abgrall**
+👤 **Christian Castro Pazmiño***
 
-- Twitter: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
 - Github: [@kefranabg](https://github.com/kefranabg)
-
+- Instagram: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
 ## Show your support
 
 Please ⭐️ this repository if this project helped you!
@@ -136,9 +130,6 @@ Please ⭐️ this repository if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
+Copyright © 2025 [Christian Castro Pazmiño](https://github.com/kefranabg).<br />
 This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
 
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
