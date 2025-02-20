@@ -64,14 +64,21 @@ Al ejecutarse crea dos archivos:
 Created Tailwind CSS config file: tailwind.config.js
 Created PostCSS config file: postcss.config.js
 
-Inicialemente se muestra sin rutas que usaría Tailwindcss
+Inicialmente se muestra sin rutas que usaría Tailwindcss
+<div align="center"> 
+
 ![alt text](src/assets/image-2.png)
+</div>
 
 Asignamos las rutas de los archivos que usarán tailwindcss:
 content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
-Finalmente quedaría de estar forma
+Finalmente quedaría de estar forma:
+
+<div align="center">
+
 ![alt text](src/assets/image-3.png)
+</div>
 
 El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:
 
@@ -79,7 +86,10 @@ El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwindd
 @tailwind components;
 @tailwind utilities;
 
+<div align="center">
+
 ![alt text](src/assets/image-4.png)
+</div>
 
 ## 🚀 Vite
 
@@ -93,11 +103,13 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 - postcss": "^8.4.16"
 - autoprefixer": "^10.4.8"
 
+<div align="center">
 
 ![alt text](src/assets/image-1.png)
 
 ![alt text](src/assets/image.png)
 
+</div>
 
 
 ## Code Contributors
@@ -133,7 +145,7 @@ Feel free to check [issues page](https://github.com/kefranabg/readme-md-generato
 
 👤 **Christian Castro Pazmiño***
 
-- Github: [@kefranabg](https://github.com/kefranabg)
+- Github: [@Soldierchris](https://github.com/Soldierchris)
 - Instagram: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
 ## Show your support
 
