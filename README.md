@@ -42,27 +42,29 @@ Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiem
 </div>
 
 ## 🚀 Install
-Se usa la herramienta Vite en su ultima versión LTS 5, y con la biblioteca REACT v5 usando, desde el CLI se ejecuta 
+Se usa la herramienta Vite en su ultima versión LTS 5, y con la biblioteca REACT v5 usando, desde el CLI se ejecuta:  
 
-$ npm create vite@latest my-react-app -- --template react
+$ npm create vite@latest my-react-app -- --template react  
 
-$ npm install npx
-
-
-Posteriormente se instala tailwindcss en sus versiones especificas colocandp --save-dev para que se guarde en las dependencias
+$ npm install npx  
 
 
+Posteriormente se instala tailwindcss en sus versiones especificas colocandp --save-dev para que se guarde en las dependencias  
 
-$ npm install --save-dev lucide-react
-$ npm install --save-dev tailwindcss@3.1.8
-$ npm install --save-dev autoprefixer@10.4.8
-$ npm install --save-dev postcss@8.4.16
 
-npx tailwindcss init -p
-Al ejecutarse crea dos archivos:
 
-Created Tailwind CSS config file: tailwind.config.js
-Created PostCSS config file: postcss.config.js
+$ npm install --save-dev lucide-react  
+$ npm install --save-dev tailwindcss@3.1.8  
+$ npm install --save-dev autoprefixer@10.4.8  
+$ npm install --save-dev postcss@8.4.16  
+
+
+Posteriormente ejecutamos desde el CLI:  
+npx tailwindcss init -p  
+Al ejecutarse la sentencia anterior se crean dos archivos:  
+
+Created Tailwind CSS config file: tailwind.config.js  
+Created PostCSS config file: postcss.config.js  
 
 Inicialmente se muestra sin rutas que usaría Tailwindcss
 <div align="center"> 
@@ -70,38 +72,38 @@ Inicialmente se muestra sin rutas que usaría Tailwindcss
 ![alt text](src/assets/image-2.png)
 </div>
 
-Asignamos las rutas de los archivos que usarán tailwindcss:
-content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+Asignamos las rutas de los archivos que usarán tailwindcss:  
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],  
 
-Finalmente quedaría de estar forma:
+Finalmente quedaría de estar forma:  
 
 <div align="center">
 
 ![alt text](src/assets/image-3.png)
 </div>
 
-El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:
+El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:  
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base;  
+@tailwind components;  
+@tailwind utilities;  
 
 <div align="center">
 
 ![alt text](src/assets/image-4.png)
 </div>
-
+  
 ## 🚀 Vite
 
 ## 🚀 React
 
 ## 🚀 Dependencies
 
-Se utiliza las siguintes versiones las cuales son indispensables por compatibilidad :
+Se utiliza las siguintes versiones las cuales son indispensables por compatibilidad:  
 
-- tailwindcss": "^3.1.8"
-- postcss": "^8.4.16"
-- autoprefixer": "^10.4.8"
+- tailwindcss": "^3.1.8"  
+- postcss": "^8.4.16"  
+- autoprefixer": "^10.4.8"  
 
 <div align="center">
 
