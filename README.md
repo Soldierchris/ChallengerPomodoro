@@ -121,7 +121,7 @@ This project exists thanks to all the people who contribute.
 
 <div align="center">
   <a href="https://github.com/Dereemii">
-    <img src="https://avatars.githubusercontent.com/u/9840435?v=4" width="50" height="50" style="border-radius: 50%; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/62083149?v=4" width="50" height="50" style="border-radius: 50%; margin: 5px;">
   </a>
 </div>
 
@@ -146,10 +146,10 @@ Support this project with your organization. Your logo will show up here with a 
 
 ## Author
 
-👤 **Christian Castro Pazmiño***
+👤 **Christian Castro Pazmiño**
 
 - Github: [@Soldierchris](https://github.com/Soldierchris)
-- Instagram: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
+- Instagram: [@ldierchriscl](https://www.instagram.com/soldierchriscl)
 ## Show your support
 
 Please ⭐️ this repository if this project helped you!
