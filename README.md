@@ -37,7 +37,7 @@ Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiem
 
 <p align="center">
 
-![alt text](pomodoro.gif)
+![alt text](src/assets/pomodoro.gif)
 
 </p>
 
@@ -65,13 +65,13 @@ Created Tailwind CSS config file: tailwind.config.js
 Created PostCSS config file: postcss.config.js
 
 Inicialemente se muestra sin rutas que usaría Tailwindcss
-![alt text](image-2.png)
+![alt text](src/assets/image-2.png)
 
 Asignamos las rutas de los archivos que usarán tailwindcss:
 content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
 Finalmente quedaría de estar forma
-![alt text](image-3.png)
+![alt text](src/assets/image-3.png)
 
 El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:
 
@@ -79,7 +79,7 @@ El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwindd
 @tailwind components;
 @tailwind utilities;
 
-![alt text](image-4.png)
+![alt text](src/assets/image-4.png)
 
 ## 🚀 Vite
 
@@ -94,9 +94,9 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 - autoprefixer": "^10.4.8"
 
 
-![alt text](image-1.png)
+![alt text](src/assets/image-1.png)
 
-![alt text](image.png)
+![alt text](src/assets/image.png)
 
 
 
