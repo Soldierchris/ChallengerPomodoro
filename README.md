@@ -33,19 +33,53 @@
 
 ## ✨ Demo
 
-`readme-md-generator` is able to read your environment (package.json, git config...) to suggest you default answers during the `README.md` creation process:
+Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiempo de descanso
 
 <p align="center">
-  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="demo"/>
+
+![alt text](pomodoro.gif)
+
 </p>
 
-Generated `README.md`:
+## 🚀 Install
+Se usa la herramienta Vite en su ultima versión LTS 5, y con la biblioteca REACT v5 usando, desde el CLI se ejecuta 
 
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/9840435/60266090-9cf9e180-98e7-11e9-9cac-3afeec349bbc.jpg" alt="cli output"/>
-</p>
+$ npm create vite@latest my-react-app -- --template react
+
+$ npm install npx
 
 
+Posteriormente se instala tailwindcss en sus versiones especificas colocandp --save-dev para que se guarde en las dependencias
+
+
+
+$ npm install --save-dev lucide-react
+$ npm install --save-dev tailwindcss@3.1.8
+$ npm install --save-dev autoprefixer@10.4.8
+$ npm install --save-dev postcss@8.4.16
+
+npx tailwindcss init -p
+Al ejecutarse crea dos archivos:
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+
+Inicialemente se muestra sin rutas que usaría Tailwindcss
+![alt text](image-2.png)
+
+Asignamos las rutas de los archivos que usarán tailwindcss:
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+Finalmente quedaría de estar forma
+![alt text](image-3.png)
+
+El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+![alt text](image-4.png)
 
 ## 🚀 Vite
 
@@ -54,8 +88,9 @@ Generated `README.md`:
 ## 🚀 Dependencies
 
 Se utiliza las siguintes versiones las cuales son indispensables por compatibilidad :
-- postcss": "^8.4.16"
+
 - tailwindcss": "^3.1.8"
+- postcss": "^8.4.16"
 - autoprefixer": "^10.4.8"
 
 
