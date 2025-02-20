@@ -116,9 +116,14 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 
 ## Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
+This project exists thanks to all the people who contribute. 
 
+
+<div align="center">
+  <a href="https://github.com/Dereemii">
+    <img src="https://avatars.githubusercontent.com/u/9840435?v=4" width="50" height="50" style="border-radius: 50%; margin: 5px;">
+  </a>
+</div>
 
 
 
@@ -137,11 +142,7 @@ Support this project with your organization. Your logo will show up here with a 
 <a href="https://opencollective.com/readme-md-generator/organization/8/website"><img src="https://opencollective.com/readme-md-generator/organization/8/avatar.svg"></a>
 <a href="https://opencollective.com/readme-md-generator/organization/9/website"><img src="https://opencollective.com/readme-md-generator/organization/9/avatar.svg"></a>
 
-## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome.<br />
-Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues) if you want to contribute.<br />
-[Check the contributing guide](./CONTRIBUTING.md).<br />
 
 ## Author
 
