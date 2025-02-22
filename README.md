@@ -21,19 +21,22 @@
 </div>
 
 
-> El inventor de esta técnica fue Francesco Cirillo, un estudiante italiano que se dio cuenta de lo improductivas que eran no solo sus sesiones de estudio, si no las de todos sus compañeros en general.
+> The inventor of this technique was Francesco Cirillo, an Italian student who realized how unproductive not only his study sessions were, but those of all his classmates in general.
 >
-> La técnica Pomodoro, o método Pomodoro, es una herramienta tanto de estudio como de trabajo. De hecho, como forma más precisa de definición, podemos decir que es una metodología de productividad.
+> The Pomodoro technique, or Pomodoro method, is a tool for both study and work. In fact, as a more precise way of definition, we can say that it is a productivity methodology.
 
->La base de esta técnica consiste en dividir el tiempo en periodos de 25 minutos. Ni un minuto más, ni un minuto menos. ¿Por qué? Porque lo que se busca con esta técnica es alcanzar lo que se llama el “foco de concentración“: ese estado de focus en el cual solo estás centrado en acabar esa tarea que tienes entre manos, sin distracciones de ningún tipo. 
->
-> Fuente: Instituto Europeo de Postgrado
+>The basis of this technique is to divide time into periods of 25 minutes. Not a minute more, not a minute less. Because? Because what is sought with this technique is to achieve what is called the “focus of concentration”: that state of focus in which you are only focused on finishing the task at hand, without distractions of any kind.
+
+
+> origin: Instituto Europeo de Postgrado
 > https://iep.edu.es/que-es-el-metodo-pomodoro/
 > 
 
+
+
 ## ✨ Demo
 
-Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiempo de descanso
+Two parameters are used, the work time in flow or concentration and the rest time.
 
 <div align="center">
 
@@ -41,15 +44,15 @@ Se usan dos parámetros, el tiempo de trabajo en flow o concentración y el tiem
 
 </div>
 
-## 🚀 Install
-Se usa la herramienta Vite en su ultima versión LTS 5, y con la biblioteca REACT v5 usando, desde el CLI se ejecuta:  
+## ⚙️ Install
+Later, tailwindcss is installed in its specific versions, placing dp --save-dev so that it is saved in the dependencies  
 
 $ npm create vite@latest my-react-app -- --template react  
 
 $ npm install npx  
 
 
-Posteriormente se instala tailwindcss en sus versiones especificas colocandp --save-dev para que se guarde en las dependencias  
+Later, tailwindcss is installed in its specific versions, placing dp --save-dev so that it is saved in the dependencies  
 
 
 
@@ -59,30 +62,30 @@ $ npm install --save-dev autoprefixer@10.4.8
 $ npm install --save-dev postcss@8.4.16  
 
 
-Posteriormente ejecutamos desde el CLI:  
-npx tailwindcss init -p  
-Al ejecutarse la sentencia anterior se crean dos archivos:  
+Later we execute from the CLI:  
+npx tailwindcss init -p    
+When the previous statement is executed, two files are created:  
 
 Created Tailwind CSS config file: tailwind.config.js  
 Created PostCSS config file: postcss.config.js  
 
-Inicialmente se muestra sin rutas que usaría Tailwindcss
+Initially shown without routes that Tailwindcss would use  
 <div align="center"> 
 
 ![alt text](src/assets/image-2.png)
 </div>
 
-Asignamos las rutas de los archivos que usarán tailwindcss:  
+We assign the paths of the files they will use tailwindcss:  
 content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],  
 
-Finalmente quedaría de estar forma:  
+Finally it would look like this:  
 
 <div align="center">
 
 ![alt text](src/assets/image-3.png)
 </div>
 
-El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwinddcss colocando las siguientes rutas:  
+The main.jsx file points to index.css, we indicate that index.css will use tailwinddcss by placing the following paths:   
 
 @tailwind base;  
 @tailwind components;  
@@ -93,13 +96,10 @@ El archivo main.jsx apunta a index.css, indicamos que index.css usará tailwindd
 ![alt text](src/assets/image-4.png)
 </div>
   
-## 🚀 Vite
-
-## 🚀 React
 
 ## 🚀 Dependencies
 
-Se utiliza las siguintes versiones las cuales son indispensables por compatibilidad:  
+The following versions are used, which are essential for compatibility:  
 
 - tailwindcss": "^3.1.8"  
 - postcss": "^8.4.16"  
@@ -114,7 +114,7 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 </div>
 
 
-## Code Contributors
+## Code Contributors  👑
 
 This project exists thanks to all the people who contribute. 
 
@@ -133,13 +133,7 @@ This project exists thanks to all the people who contribute.
 
 - Github: [@Soldierchris](https://github.com/Soldierchris)
 - Instagram: [@Soldierchriscl](https://www.instagram.com/soldierchriscl)
-## Show your support
 
-Please ⭐️ this repository if this project helped you!
-
-<a href="https://www.patreon.com/FranckAbgrall">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
 
 ## 📝 License
 
