@@ -119,7 +119,7 @@ Se utiliza las siguintes versiones las cuales son indispensables por compatibili
 This project exists thanks to all the people who contribute. 
 
 
-<div align="center">
+<div align="left">
   <a href="https://github.com/Dereemii">
     <img src="https://avatars.githubusercontent.com/u/62083149?v=4" width="50" height="50" style="border-radius: 50%; margin: 5px;">
   </a>
