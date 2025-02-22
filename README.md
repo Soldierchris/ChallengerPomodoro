@@ -121,7 +121,9 @@ This project exists thanks to all the people who contribute.
 
 <div align="left">
   <a href="https://github.com/Dereemii">
-    <img src="https://avatars.githubusercontent.com/u/62083149?v=4" width="50" height="50" style="border-radius: 50%; margin: 5px; display: block; overflow: hidden;">
+    <img src="https://avatars.githubusercontent.com/u/62083149?v=4" width="50" height="50" style="border-radius: 50%"/>
+
+  
   </a>
 </div>
 
